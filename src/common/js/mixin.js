@@ -70,7 +70,8 @@ export const playerMinx = {
 export const searchMinx = {
   data() {
     return {
-      query: ''
+      query: '',
+      refreshDelay: 100
     }
   },
   computed: {

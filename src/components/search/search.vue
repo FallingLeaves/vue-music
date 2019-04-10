@@ -9,7 +9,8 @@
          ref="shortcutWrapper">
       <scroll class="shortcut"
               :data="shortCut"
-              ref="shortcut">
+              ref="shortcut"
+              :refreshDelay="refreshDelay">
         <div>
           <div class="hot-key">
             <h1 class="title">热门搜索</h1>
